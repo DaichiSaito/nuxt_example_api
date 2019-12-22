@@ -1,24 +1,14 @@
 # README
+RailsとNuxtを組み合わせたログインサンプルアプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## セットアップ
+```
+$ bundle install
 
-Things you may want to cover:
+$ bundle exec rails db:setup
 
-* Ruby version
+$ bundle exec rails s -p 3001 
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## フロント
+https://github.com/DaichiSaito/nuxt_example_front
